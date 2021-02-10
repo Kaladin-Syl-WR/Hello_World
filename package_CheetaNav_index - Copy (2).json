@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "CheetaNav",
+      "maintainer": "Etion",
+      "websiteURL": "https://roboticsmasters.co",
+      "email" : "techsupport@roboticsmasters.co",
+      "platforms":
+      [
+        {
+          "name": "CheetaNav Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",  
+          "url": "https://github.com/Kaladin-Syl-WR/Hello_World/blob/main/CheetaNav_Boards.zip",
+          "archiveFileName": "CheetaNav_Boards.zip",
+          "checksum": "SHA-256:f1a77ef6b51b2029b585c573f36cfe75",
+          "size": "50444605",
+          "boards": [
+            {
+              "name": "CheetaNav HID"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
